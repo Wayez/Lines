@@ -80,9 +80,9 @@ int find_slope(int x0, int y0, int x1, int y1){
 	if (m >= 1){
 		return 2;
 	}
-	if (m < 0 && m >= 1){
-		return 3;
+	if (m < 0 && m >= -1){
+		return 4;
 	}
-	return 4;
+	return 3;
 }
 
