@@ -27,7 +27,6 @@ int main() {
   draw_line( 0, YRES-1, XRES-1, 75, s, c);  
   //octant 7
   draw_line( 0, YRES-1, XRES - 75, 0, s, c);
-
   c.green = 0;
   c.blue = MAX_COLOR;
   //octant 5
