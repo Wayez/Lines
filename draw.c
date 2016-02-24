@@ -18,7 +18,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 		B = -(x1 - x0);
 		slope = find_slope(x0, y0, x1, y1);
 		if (slope == 1){
-			printf("First\n");
+			//printf("First\n");
 			d = 2 * A + B;
 			while (x <= x1){
 				plot(s, c, x, y);
@@ -31,7 +31,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 			}
 		}
 		if (slope == 2){
-			printf("Second\n");
+			//printf("Second\n");
 			d = A + 2 * B;
 			while (y <= y1){
 				plot(s, c, x, y);
@@ -44,7 +44,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 			}
 		}
 		if (slope == 3){
-			printf("Seventh\n");
+			//printf("Seventh\n");
 			d = A - 2 * B;
 			while (y >= y1){
 				plot(s, c, x, y);
@@ -57,7 +57,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 			}
 		}
 		if (slope == 4){
-			printf("Eigth\n");
+			//printf("Eigth\n");
 			d = 2 * A - B;
 			while (x <= x1){
 				plot(s, c, x, y);
